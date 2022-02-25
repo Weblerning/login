@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New page</title>
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body id="new-page">
+	<form action="../action/action.html">
+		<!-- name -->
+		<h1>Create a new account</h1>
+		<div class="name">
+			<label for="fname">Frist name *</label>
+			<input type="text" name="fname" id="fname" placeholder="enter your frist name" required> <br>
+			<label for="lname">Last name </label>
+			<input type="text" name="lname" id="lname" placeholder="enter your last name"> <br>
+		</div>
+		<!-- password -->
+		<div class="password">
+			<label for="password">Password *</label>
+			<input type="password" name="password" id="password" placeholder="enter a password" required> <br>
+			<label for="password">Password </label>
+			<input type="password" name="password" id="password" placeholder="retype your password"> <br>
+		</div>
+		<!-- email -->
+		<div class="email">
+			<label for="email">Email *</label>
+			<input type="text" name="email" id="email" placeholder="enter your email address" required> <br>
+		</div>
+		<!-- gender -->
+		Gender
+		<div class="gender">
+			<input type="radio" name="gender" id="male" >
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female" >
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="other" >
+			<label for="other">Other</label>
+		</div>
+		<!-- date of birth -->
+		<div class="birthday">
+			<label for="birth">Date of birth</label>
+			<input type="date" name="birthday" id="birth">
+		</div>
+		<div class="loging">
+			<input type="reset" name="reset" value="reset">
+			<input type="submit" name="submit" value="Sign in">
+		</div>
+		<a href="../index.html">Back to homepage</a>
+	</form>
+</body>
+</html>

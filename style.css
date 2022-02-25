@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	background-color: #f0b05d;
+	
+}
+
+img {
+	height: 130px;
+	width: 500px;
+}
+.img {
+	height: 600px;
+	width: 100%;
+	font-size:24px;
+}
+
+#first-page{
+	background-color: #e1a37e;
+	color: #884d4d;
+	text-align: center;
+	font-size: 30px;
+	width: 500px;
+	margin-left: 300px;
+	height: 400px;
+}
+
+#me {
+	color: #ffffff;
+	text-align: end;
+	font-size: 12px;
+	background-color: #0aac86;
+	width: 100px;
+	margin-left: 87%;
+	margin-top: 180px;
+} 
+#find {
+	width: 500px;
+	height: 250px;
+	background-color: #ce7a7a;
+	text-align: center;
+	margin-left: 269px;
+	margin-top: 30px;
+	color: #4e864e;
+}
+#forget {
+	margin-top: 30px;
+	margin-left: 326px;
+}
+#new-page {
+	color: #4d48e6;
+	text-align: center;
+	font-size: 26px;
+}
